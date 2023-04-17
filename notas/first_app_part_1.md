@@ -1,4 +1,8 @@
-# First App
+# First App-1
+
+## Objetivo 
+Rodar noss aplaicação. 
+
 
 Vamos criar a nosso primeiro aplicação.
 
@@ -30,7 +34,7 @@ INSTALLED_APPS = [
 
 No views.py  do direotrio core, vamos criar função chamado index, que vai servir para rendelizar a nossa pagina 
 
-~~ python
+~~~ python
 def index(request):
     return render(request, 'core/index.html')
 ~~~
@@ -75,3 +79,13 @@ urlpatterns = [
 ~~~
 
 Precismaos colocar a biblioteca que importa a nossa função 
+
+
+Agora vamos rodar nossa aplicação para isso basta fazer
+
+~~~python
+python3 manage.py runserver 
+~~~
+
+
+
